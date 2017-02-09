@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发布会邀请函</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/resetPage.css">
+    <script type="text/javascript" src="js/resetPage.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/jquery.fragmentFly.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/jweixin.js"></script>
+    <script src="js/wxShare.js"></script>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <p>蛋生</p>
+                <div><img src="images/jy.png" alt=""></div>
+                <p>2016·08·29</p>
+            </div>
+            <div class="swiper-slide">
+                <p>邀您共同见证<br/>臻迪首款消费级无人机<br/>PowerEgg 发布</p>
+                <p>一颗“蛋”的奇妙旅程<br/>一个关于科技和艺术融合的创意</p>
+                <p>颠覆<span class="dot">·</span>创新</p>
+            </div>
+            <div class="swiper-slide">
+                <p>鸟巢北门火炬广场旁<br/>朝阳区国家体育场南路1号</br>2016年8月29日</p>
+                <div><span>18:30</span>嘉宾签到</div>
+                <div><span>19:00</span>产品发布</div>
+                <div><span>20:00</span>发布会闭幕</div>
+            </div>
+            <div class="swiper-slide">
+                <div><img src="images/twopic.png" alt=""></div>
+                <p>敬请关注</p>
+                <p>臻迪机器人</p>
+                <div><a href="www.powervision.me">www.powervision.me</a></div>
+            </div>
+        </div>
+        <div class="bd">
+            <img src="images/swiper_bd.jpg">
+        </div>
+        <div class="arrow">
+            <img src="images/bd.png" alt="">
+            <img src="images/arrow.png" alt="">
+            <p>P<span>o</span>werVision</p>
+        </div>
+    </div>
+   <script src="js/index.js"></script>
+    <script type="text/javascript">var wxData = {
+        "appId": "",
+        "imgUrl": "http://qnm.hunliji.com/FmXsjmYD7H1OUAkmRYeS5IlaPnjH?imageView2/2/w/200/h/200",
+        "link": "http://www.hunliji.com/p/wedding/Public/wap/invitationCard/index.html?card_id=NDQ4NjIwZmlyZV9jbG91ZA&speech_id=MjMzMjE5ZmlyZV9jbG91ZA&from=timeline&isappinstalled=0",
+        "desc": "申杨杨与闫园园要结婚了，诚挚邀请您光临。",
+        "title": "申杨杨与闫园园的结婚邀请"
+    };
+
+    var wxDataer = {
+        "appId": "",
+        "imgUrl": "http://qnm.hunliji.com/FmXsjmYD7H1OUAkmRYeS5IlaPnjH?imageView2/2/w/200/h/200",
+        "link": "http://www.hunliji.com/p/wedding/Public/wap/invitationCard/index.html?card_id=NDQ4NjIwZmlyZV9jbG91ZA&speech_id=MjMzMjE5ZmlyZV9jbG91ZA&from=timeline&isappinstalled=0",
+        "desc": "申杨杨与闫园园要结婚了，诚挚邀请您光临。",
+        "title": "申杨杨与闫园园的结婚邀请"
+    };
+    function getShareData(){
+        return JSON.stringify(wxData);
+    }
+    wxShare.setWeiXinData(getShareData());
+    </script>
+</body>
+</html>
